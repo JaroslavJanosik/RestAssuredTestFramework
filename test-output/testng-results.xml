@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-12T16:31:50 SELČ" name="Suite" finished-at="2021-10-12T16:31:58 SELČ" duration-ms="8660">
+    <groups>
+    </groups>
+    <test started-at="2021-10-12T16:31:50 SELČ" name="ContentItemTests" finished-at="2021-10-12T16:31:58 SELČ" duration-ms="8660">
+      <class name="com.restassured.testcases.ContentItemTests">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:49 SELČ" name="setUpSuite" finished-at="2021-10-12T16:31:50 SELČ" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:50 SELČ" name="setUp" finished-at="2021-10-12T16:31:50 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getContentItemTest(java.util.Map)[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:50 SELČ" name="getContentItemTest" data-provider="ContentItemData" finished-at="2021-10-12T16:31:56 SELČ" duration-ms="5936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContentItemTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:56 SELČ" name="setUp" finished-at="2021-10-12T16:31:56 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postContentItemTest_ByReadingRequestFromFile(java.util.Map)[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:56 SELČ" name="postContentItemTest_ByReadingRequestFromFile" data-provider="ContentItemData" finished-at="2021-10-12T16:31:57 SELČ" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postContentItemTest_ByReadingRequestFromFile -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:57 SELČ" name="setUp" finished-at="2021-10-12T16:31:57 SELČ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postContentItemTest_WithPojo(java.util.Map)[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:57 SELČ" name="postContentItemTest_WithPojo" data-provider="ContentItemData" finished-at="2021-10-12T16:31:58 SELČ" duration-ms="730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postContentItemTest_WithPojo -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:58 SELČ" name="setUp" finished-at="2021-10-12T16:31:58 SELČ" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postContentItemTest_WithoutPojo(java.util.Map)[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:58 SELČ" name="postContentItemTest_WithoutPojo" data-provider="ContentItemData" finished-at="2021-10-12T16:31:58 SELČ" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postContentItemTest_WithoutPojo -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.restassured.testcases.ContentItemTests@4944252c]" started-at="2021-10-12T16:31:59 SELČ" name="afterSuite" finished-at="2021-10-12T16:32:00 SELČ" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.restassured.testcases.ContentItemTests -->
+    </test> <!-- ContentItemTests -->
+  </suite> <!-- Suite -->
+</testng-results>

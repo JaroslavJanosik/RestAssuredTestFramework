@@ -1,0 +1,15 @@
+{
+    "id": "d513a1a1-b97d-4f6b-9ddf-30da1626e8c0",
+    "name": "Test Item",
+    "codename": "test_item",
+    "type": {
+        "id": "a7e1371d-2049-4b64-abd0-d0a0181de749"
+    },
+    "collection": {
+        "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "sitemap_locations": [
+        
+    ],
+    "last_modified": "2020-10-20T10:07:01.0144597Z"
+}

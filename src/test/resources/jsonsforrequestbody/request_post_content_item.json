@@ -1,0 +1,9 @@
+{
+    "name": "TestName",
+    "type": {
+        "codename": "product_example_content_type"
+    },
+    "collection": {
+        "id": "00000000-0000-0000-0000-000000000000"
+    }
+}

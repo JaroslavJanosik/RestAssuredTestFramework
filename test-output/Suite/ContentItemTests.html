@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  ContentItemTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ContentItemTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 12 16:31:50 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8660 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.restassured.testcases.ContentItemTests.getContentItemTest()'><b>getContentItemTest</b><br>Test class: com.restassured.testcases.ContentItemTests<br>Parameters: {itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}</td>
+<td></td>
+<td>5</td>
+<td>com.restassured.testcases.ContentItemTests@4944252c</td></tr>
+<tr>
+<td title='com.restassured.testcases.ContentItemTests.postContentItemTest_ByReadingRequestFromFile()'><b>postContentItemTest_ByReadingRequestFromFile</b><br>Test class: com.restassured.testcases.ContentItemTests<br>Parameters: {itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}</td>
+<td></td>
+<td>1</td>
+<td>com.restassured.testcases.ContentItemTests@4944252c</td></tr>
+<tr>
+<td title='com.restassured.testcases.ContentItemTests.postContentItemTest_WithPojo()'><b>postContentItemTest_WithPojo</b><br>Test class: com.restassured.testcases.ContentItemTests<br>Parameters: {itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}</td>
+<td></td>
+<td>0</td>
+<td>com.restassured.testcases.ContentItemTests@4944252c</td></tr>
+<tr>
+<td title='com.restassured.testcases.ContentItemTests.postContentItemTest_WithoutPojo()'><b>postContentItemTest_WithoutPojo</b><br>Test class: com.restassured.testcases.ContentItemTests<br>Parameters: {itemId=d513a1a1-b97d-4f6b-9ddf-30da1626e8c0, typeCodeName=product_example_content_type, itemName=TestName, typeId=a7e1371d-2049-4b64-abd0-d0a0181de749, TestCaseName=getContentItemTest, projectId=74ccdf81-3d24-00be-a9af-5e0fd70c57b8, itemCodeName=test_item, authBearerToken=ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAianRpIjogIjJiNzg4NGNmZWZiYzRlOTlhN2M1MTgxMWIwZTMxMmQ0IiwNCiAgImlhdCI6ICIxNjAzMTgzNzY4IiwNCiAgImV4cCI6ICIxOTQ4NzgzNzY4IiwNCiAgInByb2plY3RfaWQiOiAiNzRjY2RmODEzZDI0MDBiZWE5YWY1ZTBmZDcwYzU3YjgiLA0KICAidmVyIjogIjIuMS4wIiwNCiAgInVpZCI6ICI1Y2M4NjU3NTIwYjE1YjBlMTYxNzdmYTIiLA0KICAiYXVkIjogIm1hbmFnZS5rZW50aWNvY2xvdWQuY29tIg0KfQ.HYuFBVPTkHeyG0Bq6Gf_sk6bq-KGrUhUtWgc3bQo3RQ}</td>
+<td></td>
+<td>0</td>
+<td>com.restassured.testcases.ContentItemTests@4944252c</td></tr>
+</table><p>
+</body>
+</html>
